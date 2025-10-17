@@ -1,0 +1,15 @@
+{
+    "database": {
+        "type": "MongoDB",
+        "uri": "mongodb://localhost:27017/",
+        "name": "image_analysis_db"
+    },
+    "cloud": {
+        "provider": "Google Cloud Platform",
+        "storage_bucket": "ai_image_storage"
+    },
+    "api": {
+        "host": "0.0.0.0",
+        "port": 8000
+    }
+}
